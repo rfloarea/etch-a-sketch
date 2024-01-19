@@ -1,5 +1,7 @@
 # Etch-a-Sketch
 
+Total Hours: 3.5
+
 ## Plog
 
 Friday, January 19th 2023 @3:14pm
