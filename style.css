@@ -9,7 +9,7 @@
 .grid-frame {
     width: 960px;
     height: 960px;
-    border: 2px black dotted;
+    /*border: 1px black dotted;*/
     display: flex;
     flex-wrap: wrap;
 }
