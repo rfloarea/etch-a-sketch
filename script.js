@@ -2,7 +2,7 @@ const gridFrame = document.getElementById('gridFrame');
 const box = document.createElement('div')
 
 // create an iterable array of i length
-i = prompt();
+i = prompt('How many boxes would you like in your canvas? Max is 256.');
 let arr = Array.from('x'.repeat(i));
 console.log(arr.length);
 
