@@ -21,6 +21,7 @@
     /* TODO: make the boxes shrink and grow comparatively to the frame size, and vice versa */
 }
 
-.box:hover {
+#box:hover {
     background-color: black;
 }
+
