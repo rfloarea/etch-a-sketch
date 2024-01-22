@@ -1,10 +1,10 @@
 const gridFrame = document.getElementById('gridFrame');
 const box = document.createElement('div')
 
-// create an iterable array of i length
+// create an iterable array of length i
 i = prompt('How many boxes would you like in your canvas? Max is 256.');
 let arr = Array.from('x'.repeat(i));
-console.log(arr.length);
+// console.log(arr.length);
 
 // append a new box element to the parent container every time we iterate over the array
 function appendBox(j) {
