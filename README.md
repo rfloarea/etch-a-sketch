@@ -38,3 +38,7 @@ Features:
 - printable;
 - shareable/exportable;
 - a public gallery that users can share their work to;
+
+*later that same day* @3:41pm
+
+The colors! They change!! With the clickings!!!

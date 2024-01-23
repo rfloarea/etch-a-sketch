@@ -1,8 +1,9 @@
 const canvasFrame = document.getElementById('canvasFrame');
 const box = document.createElement('div')
+const numberOfBoxes = prompt('How many boxes would you like in your canvas? Max is 256.');
+const arr = Array.from('x'.repeat(numberOfBoxes));
 
-numberOfBoxes = prompt('How many boxes would you like in your canvas? Max is 256.');
-let arr = Array.from('x'.repeat(numberOfBoxes));
+appendBox();
 
 function appendBox(i) {
     for (i = 0; i < arr.length; i++ ){
@@ -13,12 +14,9 @@ function appendBox(i) {
     }
 }
 
-appendBox();
-
 const newBoxList = document.querySelectorAll('#box');
 
 changeBoxColor();
-
 
 function changeBoxColor() {
     for (let i = 0; i < newBoxList.length; i++) {
