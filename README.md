@@ -22,10 +22,19 @@ tuesday, january 23rd, 2023 @2:04pm
 
 Changed this project from an assigned thing from The Odin Project called Etch-a-Sketch to a self-directed project called PixelArted.
 
-Why the change?
+### Why the change?
 
-Because I didn't *get* the project when it was assigned to me. Sure, I would have been abler to work through the tasks and constraints, but my heart wasn't in it. But now that I've reconceptualized the project in a way that I feel personally invested in, I am far more motivated to flesh it out. As a result, I suspect I will learn more relevant skills and learn more deeply what is actually required to bring an idea to life.
+Because I didn't *get* the project when it was assigned to me. Sure, I would have been able to work through the tasks and constraints, but my heart wasn't in it. But now that I've reconceptualized the project in a way that I feel personally invested in, I am far more motivated to flesh it out. As a result, I suspect I will learn more relevant skills and learn more deeply what is actually required to bring an idea to life.
 
-What *is* the change?
+### What *is* the change?
 
-PixelArted (pun intended) is going to be a in-browser pixel art canvas. A simple way to make simple designs.
+**PixelArted** (pun intended) is going to be a in-browser pixel art canvas. A simple way to make simple designs.
+
+Features:
+- custom frame/canvas size and shape;
+- custom pixel size (density?);
+- custom color picker; 
+- "draw mode" settings: click vs drag vs mouseover;
+- printable;
+- shareable/exportable;
+- a public gallery that users can share their work to;
