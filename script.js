@@ -1,4 +1,4 @@
-const gridFrame = document.getElementById('gridFrame');
+const canvasFrame = document.getElementById('canvasFrame');
 const box = document.createElement('div')
 
 numberOfBoxes = prompt('How many boxes would you like in your canvas? Max is 256.');
@@ -9,7 +9,7 @@ function appendBox(i) {
         const newElement  = document.createElement('div');
         newElement.classList.add('box');
         newElement.setAttribute('id', 'box');
-        gridFrame.appendChild(newElement);
+        canvasFrame.appendChild(newElement);
     }
 }
 

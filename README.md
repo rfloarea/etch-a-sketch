@@ -28,7 +28,7 @@ Because I didn't *get* the project when it was assigned to me. Sure, I would hav
 
 ### What *is* the change?
 
-**PixelArted** (pun intended) is going to be a in-browser pixel art canvas. A simple way to make simple designs.
+**pixelArted** (pun intended) is going to be a in-browser pixel art canvas. A simple way to make simple designs.
 
 Features:
 - custom frame/canvas size and shape;
