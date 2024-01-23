@@ -1,4 +1,4 @@
-# PixelArted
+# pixelArted
 
 Total Hours: 3.5
 
