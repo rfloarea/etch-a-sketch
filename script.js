@@ -41,4 +41,17 @@ this means that we have figured out:
     2. and change the color as we go
 but we lost our nice hover effect...
 that we did
+
+let's back up a second to see if we can add one lick event to one element
+*/
+
+let oneBox = document.getElementById('box');
+console.log(oneBox);
+oneBox.addEventListener('click', alert('this works!'));
+/* huh, see what happened? the event triggered without clicking
+that's weird!
+well, yes and no
+it's weird because you are a baby and don't know anything
+it's not weird because if you knew that (insert logical explanation here => something about 
+    needing to use a callback rather than directly calling the function as the handler)
 */
