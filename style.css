@@ -11,6 +11,23 @@
     margin: 6px;
 }
 
+.modal-content {
+    border: 1px black solid;
+    margin: 6px;
+}
+
+.modal-selector-container {
+    border: 1px black solid;
+    margin: 6px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px black solid;
+    margin: 6px;
+}
+
 .canvas-frame {
     width: 960px;
     height: 960px;
