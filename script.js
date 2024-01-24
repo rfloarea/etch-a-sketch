@@ -1,6 +1,6 @@
 const canvasFrame = document.getElementById('canvasFrame');
 const box = document.createElement('div')
-const numberOfBoxes = prompt('How many boxes would you like in your canvas? Max is 256.');
+const numberOfBoxes = 256; //prompt('How many boxes would you like in your canvas? Max is 256.');
 const arr = Array.from('x'.repeat(numberOfBoxes));
 
 appendBox();

@@ -12,17 +12,38 @@
     <body>
 
         <div class="modal" id="modal">
+
             <div class="modal-content" id="modalContent">
                 <h2 class="modal-title">pixelArted</h2>
-                <p class="modal-subtitle">wanna make some silly things out of squares? cool, me too</p>
-                <div class="modal-btn-container" id="modalBtnContainer">
-                    <!-- input for canvas size: small, med, large -->
-                    <!-- input for pixel size: small, med, large -->
-                    <!-- input for starting color -->
-                    <!-- submit button; textContent = "let's party"-->
-                </div>
+                <p class="modal-subtitle">wanna make stuff with boxes? cool, me too</p>
+            </div>
+                    
+            <div class="modal-selector-container">
+                <p>choose your:</p>
+
+                <label for="canvas">canvas size</label>
+                <select name="canvas" class="canvas" id="canvas">
+                    <option value="" selected="selected">size doesn't matter</option>
+                    <option value="small">small</option>
+                    <option value="medium">medium</option>
+                    <option value="large">large</option>
+                </select>
+                
+                <label for="box-size">box size</label>
+                <select>
+                    <option value="" selected="selected">except when it does</option>
+                    <option value="small">small</option>
+                    <option value="medium">medium</option>
+                    <option value="large">large</option>
+                </select>
+                
+                <label for="color">and a color to start with</label>
+                <input type="color" class="color=picker "id="colorPicker" value="000000"/>
+                
+                <button>let's party.</button>
                 
             </div>
+            
         </div>
 
         <div class="overlay" id="overlay"></div>

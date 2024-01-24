@@ -6,6 +6,11 @@
     margin: 0;
 }
 
+.modal {
+    border: 1px black solid;
+    margin: 6px;
+}
+
 .canvas-frame {
     width: 960px;
     height: 960px;
