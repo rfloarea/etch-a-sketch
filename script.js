@@ -7,8 +7,8 @@ startBtn.addEventListener('click', hideOverlay);
 startBtn.addEventListener('click', hideModal);
 
 function startUp() {
-    showOverlay();
     startUpModal();
+    showOverlay();
     // drawCanvas();
     // drawBoxes();
     // addEventListeners();
@@ -20,7 +20,7 @@ function startUpModal() {
     // getCanvasSize();
     // getBoxSize();
     // getStartingColor();
-    hideModal();
+    // hideModal();
 };
 
 function showModal() {
@@ -37,6 +37,8 @@ function showOverlay() {
 function hideOverlay() {
     overlay.classList.remove('active');
 }
+
+
 
 //get canvas size
 const canvasSize = document.querySelector('#canvasDropdown').value;
