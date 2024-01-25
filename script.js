@@ -1,23 +1,28 @@
 window.addEventListener('load', startUp);
 
+const modal = document.querySelector('#modal');
+const overlay = document.querySelector('#overlay');
+const startBtn = document.querySelector('#startBtn');
+startBtn.addEventListener('click', hideOverlay);
+startBtn.addEventListener('click', hideModal);
+
 function startUp() {
+    showOverlay();
     startUpModal();
-    drawCanvas();
-    drawBoxes();
-    addEventListeners();
-    setDefaultColor();
+    // drawCanvas();
+    // drawBoxes();
+    // addEventListeners();
+    // setDefaultColor();
   };
   
 function startUpModal() {
     showModal();
-    getCanvasSize();
-    getBoxSize();
-    getStartingColor();
+    // getCanvasSize();
+    // getBoxSize();
+    // getStartingColor();
     hideModal();
 };
 
-// modal stuff
-const modal = document.querySelector('#modal');
 function showModal() {
     modal.classList.add('active');
 }
@@ -25,17 +30,15 @@ function hideModal() {
     modal.classList.remove('active');
 }
 
-// overlay stuff
-const overlay = document.querySelector('#overlay');
 function showOverlay() {
     overlay.classList.add('active');
 }
+
 function hideOverlay() {
     overlay.classList.remove('active');
 }
 
 //get canvas size
-//const canvasSize = document.querySelector('#canvas');
 const canvasSize = document.querySelector('#canvasDropdown').value;
 console.log(canvasSize);
 
