@@ -21,24 +21,24 @@
             <div class="modal-selector-container">
                 <p>choose your:</p>
 
-                <label for="canvas">canvas size</label>
-                <select name="canvas" class="canvas" id="canvas">
+                <label for="canvasDropdown">canvas size</label>
+                <select name="canvas-dropdown" class="canvas-dropdown" id="canvasDropdown">
                     <option value="" selected="selected">size doesn't matter</option>
                     <option value="small">small</option>
                     <option value="medium">medium</option>
                     <option value="large">large</option>
                 </select>
                 
-                <label for="box-size">box size</label>
-                <select>
+                <label for="boxDropdown">box size</label>
+                <select name="box-dropdown" class="box-dropdown" id="boxDropdown">
                     <option value="" selected="selected">except when it does</option>
                     <option value="small">small</option>
                     <option value="medium">medium</option>
                     <option value="large">large</option>
                 </select>
                 
-                <label for="color">and a color to start with</label>
-                <input type="color" class="color=picker "id="colorPicker" value="000000"/>
+                <label for="colorPicker">and a color to start with</label>
+                <input type="color" class="color-picker "id="colorPicker" value=""/>
                 
                 <button>let's party</button>
                 
@@ -54,7 +54,7 @@
         </div>
         
 
-        <div class="canvas-frame" id="canvasFrame"></div>
+        <div class="canvas" id="canvas"></div>
 
     </body>
 </html>
