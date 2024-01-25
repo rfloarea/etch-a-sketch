@@ -42,3 +42,15 @@ Features:
 *later that same day* @3:41pm
 
 The colors! They change!! With the clickings!!!
+
+---
+
+wednesday, january 24, 2024 @9:11pm
+
+What a fun and crazy coding day! Having to scope out this project is such a challenge. Creativity wants to do EVERYTHING but my mind knows that can't happen. So we compromise, Creativity shares the great ideas (and less than great) while Mind determines what we can actually execute. It's a pretty good system. 
+
+I'm really encouraged by this project. I feel like I'm actually learning how to fly this plane; how to program with fewer and fewer training wheels.
+
+Notes to my future self:
+- Always know where your mind is while you're coding. This is an active thinking activity. There's no room for autopilot. Stay aware. Think.
+- Don't wait until you have huge chunks of time to sit down for hours and sit in a cozy chair or in a well lit room with a warm cup of tea and noise cancelling headphones to code. Bring that laptop where ever you are, and stay in it. Put in a what ever time you can to actively coding. Reading will be good, but *doing* cannot be replaced or deferred.
